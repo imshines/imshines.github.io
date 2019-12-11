@@ -27,6 +27,12 @@ p, li{
     overflow: hidden;
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+.home{
+    height:90vh;
+    }
+}
+
 .home .wave{
     position: absolute;
     bottom: 0;
